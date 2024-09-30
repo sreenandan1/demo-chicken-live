@@ -1,0 +1,35 @@
+/* Navigation Bar Customization */
+.navbar {
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent Bootstrap primary color */
+  }
+  nav{
+    background-color: rgba(0, 0, 0, 0.79) !important;
+    
+  }
+  
+  .nav-link {
+    color: #f8f9fa !important; /* Light color for nav links */
+    transition: color 0.3s ease;
+  }
+  
+  .logo11{
+    width: 60px;
+  }
+  .nav-link:hover {
+    color: #ffc107 !important; /* Highlight color on hover */
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #fff; /* White color */
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Center icon with text */
+  }
+  
+  .logo img {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  

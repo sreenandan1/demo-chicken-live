@@ -1,0 +1,51 @@
+/* Full height for hero section */
+.hero-section {
+    height: 100vh; /* Full height of viewport */
+    background-image: url('../../assets/bg.jpg'); /* Background image */
+    background-size: cover; /* Ensures the background image covers the section */
+    background-position: center; /* Centers the image */
+    position: relative;
+}
+
+/* Sticky WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+}
+
+/* Sticky Call Button */
+.call-float {
+    position: fixed;
+    bottom: 100px; /* Adjusts the vertical position above the WhatsApp button */
+    right: 30px;
+    z-index: 100;
+}
+
+.whatsapp-float img,
+.call-float img {
+    width: 60px; /* Width of the button */
+    height: 60px; /* Height of the button */
+}
+
+/* Button Color Scheme */
+.btn {
+    background-color: #ffc107; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffca2c; /* Lighter shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .whatsapp-float img,
+    .call-float img {
+        width: 50px; /* Adjust size on smaller screens */
+        height: 50px;
+    }
+}
