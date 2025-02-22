@@ -1,0 +1,12 @@
+<div class="itemdiv">
+    <h2>Explore by Categories </h2>
+<p>We have got you covered!</p>
+<div class="container">
+    <div class="category-card" *ngFor="let category of categories">
+        <img [src]="category.imgSrc" [alt]="category.name">
+        <div class="category-label">{{ category.name }}</div>
+    </div>
+</div>
+</div>
+
+<app-products></app-products>

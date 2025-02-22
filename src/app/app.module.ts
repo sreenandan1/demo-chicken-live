@@ -8,6 +8,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProductsComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component';
 import { CommentsComponent } from './comments/comments.component';
+import { ItemsComponent } from './items/items.component';
+import { HomeScrollComponent } from './home-scroll/home-scroll.component';
+// import { CategoryComponent } from './category/category.component';
+// import { ExploreCategoriesComponent } from './explore-categories/explore-categories.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { CommentsComponent } from './comments/comments.component';
     NavbarComponent,
     ProductsComponent,
     FooterComponent,
-    CommentsComponent
+    CommentsComponent,
+    ItemsComponent,
+    HomeScrollComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
